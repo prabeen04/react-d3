@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import { d3-scale } from 'd3';
-
+import BarChart from './components/barChart';
+import data from './components/data';
 class App extends Component {
   render() {
     console.log(d3-scale)
     return (
       <div className="App">
+        <BarChart data={data}/>
       </div>
     );
   }
