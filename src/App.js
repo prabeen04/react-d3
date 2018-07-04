@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <BarChart data={data} size={[this.state.screenWidth / 2, this.state.screenHeight / 2]}/>
+        <BarChart  data={[5,10,1,3]} size={[500,500]}/>
       </div>
     );
   }
