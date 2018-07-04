@@ -36,7 +36,7 @@ class BarChart extends Component {
    select(node)
       .selectAll('rect')
       .data(this.props.data)
-      .style('fill', '#fe9922')
+      .style('fill', 'tomato')
       .attr('x', (d,i) => i * 25)
       .attr('y', d => this.props.size[1] - yScale(d))
       .attr('height', d => yScale(d))

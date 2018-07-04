@@ -6,17 +6,17 @@ rect.overlay {
 }
 
 rect.selection {
-  fill: #FE9922;
+  fill: rgb(122, 254, 34);
   opacity: 0.5;
 }
 
 rect.handle {
-  fill: #FE9922;
+  fill: rgb(34, 254, 89);
   opacity: 0.25;
 }
 
 path.countries {
   stroke-width: 1;
-  stroke: #75739F;
+  stroke: rgb(17, 10, 156);
   fill: #5EAFC6;
 }
