@@ -20,3 +20,6 @@ path.countries {
   stroke: rgb(17, 10, 156);
   fill: #5EAFC6;
 }
+.chart:hover{
+  fill: red !important;
+}

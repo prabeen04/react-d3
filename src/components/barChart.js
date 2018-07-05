@@ -41,6 +41,7 @@ class BarChart extends Component {
       .attr('y', d => this.props.size[1] - yScale(d))
       .attr('height', d => yScale(d))
       .attr('width', 25)
+      .attr('class', 'chart')
    }
 render() {
       return <svg ref={node => this.node = node}
